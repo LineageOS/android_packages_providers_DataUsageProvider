@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <!-- Data usage Notification icon color -->
+    <color name="data_usage_notification_icon_color">#607D8B</color>
+</resources>
