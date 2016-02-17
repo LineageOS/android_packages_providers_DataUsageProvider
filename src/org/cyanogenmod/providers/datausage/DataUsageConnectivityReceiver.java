@@ -19,20 +19,25 @@ package org.cyanogenmod.providers.datausage;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
-public class BootReceiver extends BroadcastReceiver {
 
-    private static final String TAG = BootReceiver.class.getSimpleName();
+public class DataUsageConnectivityReceiver extends BroadcastReceiver {
+    private static final String TAG = DataUsageConnectivityReceiver.class.getSimpleName();
     private static final boolean DEBUG = true;
-
     @Override
     public void onReceive(Context context, Intent intent) {
+        // datausage service is only run for metered mobile connections
         boolean qualified = DataUsageUtils.isDataUsageQualified(context);
-
-        // start DataUsage service once the device boots up, but only if
-        // on qualified network and the service itself is enabled from the Settings->DataUsage
+        if (DEBUG) {
+            Log.v(TAG, "onReceived: qualified: " + qualified);
+        }
         if (qualified) {
+            // start DataUsage service, but only if enabled
             DataUsageUtils.startDataUsageServiceIfEnabled(context);
+        } else {
+            // stop DataUsage service
+            DataUsageUtils.enbDataUsageService(context, false);
         }
     }
 }

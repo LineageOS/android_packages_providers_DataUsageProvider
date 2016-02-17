@@ -24,6 +24,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.UserInfo;
 import android.database.Cursor;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.util.Log;
 
 import org.cyanogenmod.providers.datausage.R;
@@ -141,7 +143,12 @@ public final class DataUsageUtils {
     public static void enbDataUsageService(Context context, boolean enb) {
         SharedPreferences prefs = context.getSharedPreferences(PREF_FILE, Context.MODE_PRIVATE);
         prefs.edit().putBoolean(PREF_ENB_DATA_USAGE_NOTIFY, enb).apply();
-        startDataUsageService(context, enb);
+        // start DataUsage service, but only if on qualified mobile network
+        // if the service is not started now, it will be started when the network state changes
+        // and the connected network is qualified for the DataUsage service
+        if (isDataUsageQualified(context)) {
+            startDataUsageService(context, enb);
+        }
     }
 
     public static void startDataUsageService(Context context, boolean enb) {
@@ -174,6 +181,21 @@ public final class DataUsageUtils {
         if (DEBUG) {
             Log.v(TAG, "startDataUsageServiceIfEnabled: enb: " + enb);
         }
+    }
 
+    // determine if the currently connected network qualified for the DataUsage service
+    public static boolean isDataUsageQualified(Context context) {
+        // only perform DataUsage collection for metered networks
+        ConnectivityManager connectivityManager =
+                (ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        if (activeNetworkInfo != null) {
+            boolean isConnected = activeNetworkInfo.isConnected();
+            boolean isMobile = activeNetworkInfo.getType() == ConnectivityManager.TYPE_MOBILE;
+            boolean qualified = isConnected && isMobile && connectivityManager.isActiveNetworkMetered();
+            return qualified;
+        } else {
+            return false;
+        }
     }
 }

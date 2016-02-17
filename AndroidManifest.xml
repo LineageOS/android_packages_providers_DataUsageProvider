@@ -31,6 +31,12 @@
                   android:exported="true">
         </provider>
 
+        <receiver android:name=".DataUsageConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+
         <receiver android:name=".DataUsageServiceEnableReceiver">
             <intent-filter>
                 <action android:name="org.cyanogenmod.providers.datausage.enable" />
