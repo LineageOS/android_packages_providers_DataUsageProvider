@@ -1,0 +1,158 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_29c98d77",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1448
+      },
+      "writtenOn": "2016-02-20T00:49:57Z",
+      "side": 1,
+      "message": "Tab",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 1
+      },
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_89cc398a",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1448
+      },
+      "writtenOn": "2016-02-20T00:49:57Z",
+      "side": 1,
+      "message": "?",
+      "range": {
+        "startLine": 18,
+        "startChar": 23,
+        "endLine": 18,
+        "endChar": 24
+      },
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_49c6416a",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1448
+      },
+      "writtenOn": "2016-02-20T00:49:57Z",
+      "side": 1,
+      "message": "If you use READ_PRIVILEGED_PHONE_STATE, you won\u0027t have to do the runtime permission check.",
+      "range": {
+        "startLine": 11,
+        "startChar": 54,
+        "endLine": 11,
+        "endChar": 70
+      },
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_e9a055a8",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1448
+      },
+      "writtenOn": "2016-02-20T00:49:57Z",
+      "side": 1,
+      "message": "Any reason these are all caps here? Can you use the allcaps attribute on the view?",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_09a609c3",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageAppInstallService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1448
+      },
+      "writtenOn": "2016-02-20T00:49:57Z",
+      "side": 1,
+      "message": "Shouldn\u0027t ANDROID.INTENT.ACTION be lowercase?",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_a9aa5d82",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 1448
+      },
+      "writtenOn": "2016-02-20T00:49:57Z",
+      "side": 1,
+      "message": "Any reason to keep this around?",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_c9af9192",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 534,
+      "author": {
+        "id": 1448
+      },
+      "writtenOn": "2016-02-20T00:49:57Z",
+      "side": 1,
+      "message": "Margins",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_69946545",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1448
+      },
+      "writtenOn": "2016-02-20T00:49:57Z",
+      "side": 1,
+      "message": "Does enb stand for enable? If so, why not use the full word for readability?",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
