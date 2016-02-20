@@ -95,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_898519b0",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1448
+      },
+      "writtenOn": "2016-02-20T02:20:22Z",
+      "side": 1,
+      "message": "READ_PHONE_STATE is a dangerous perm in SDK 23. So you either have to request the permission on runtime or you won\u0027t get it. Since this is a priv app, just use the priv one. Same thing.",
+      "parentUuid": "ffb9cba7_09f5a957",
+      "range": {
+        "startLine": 11,
+        "startChar": 54,
+        "endLine": 11,
+        "endChar": 70
+      },
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_e9a055a8",
         "filename": "res/values/strings.xml",
         "patchSetId": 1
@@ -159,6 +183,24 @@
       "side": 1,
       "message": "does it matter? since I am using equalsIgnoreCase()? But if that\u0027s the standard, I will change it.",
       "parentUuid": "ffb9cba7_09a609c3",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_498f21cc",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageAppInstallService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1448
+      },
+      "writtenOn": "2016-02-20T02:20:22Z",
+      "side": 1,
+      "message": "Not a huge deal. I didn\u0027t notice the ignore case. I usually just see the string written with proper case.",
+      "parentUuid": "ffb9cba7_8900b936",
       "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
