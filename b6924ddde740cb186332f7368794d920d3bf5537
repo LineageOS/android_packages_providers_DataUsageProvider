@@ -48,6 +48,40 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_c9bc716b",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-20T02:36:03Z",
+      "side": 1,
+      "message": "Copyright to CM since this is OSS",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_a9b7bd86",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-20T02:36:03Z",
+      "side": 1,
+      "message": "Since this provider will run under the system uid, please provide general unit tests for its interfaces.",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_49c6416a",
         "filename": "AndroidManifest.xml",
         "patchSetId": 1
@@ -154,6 +188,57 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_69b1c58f",
+        "filename": "src/org/cyanogenmod/providers/datausage/AppItem.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-20T02:36:03Z",
+      "side": 1,
+      "message": "Is this code actually from AOSP?",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_89ae792c",
+        "filename": "src/org/cyanogenmod/providers/datausage/BootReceiver.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-20T02:36:03Z",
+      "side": 1,
+      "message": "?",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_29abcd1d",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageAppInstallReceiver.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-20T02:36:03Z",
+      "side": 1,
+      "message": "\u0027\u0027",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_09a609c3",
         "filename": "src/org/cyanogenmod/providers/datausage/DataUsageAppInstallService.java",
         "patchSetId": 1
@@ -242,6 +327,40 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_096849f3",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-20T02:36:03Z",
+      "side": 1,
+      "message": "empty override",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_49a8811e",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 444,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-20T02:36:03Z",
+      "side": 1,
+      "message": "should be up a line",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_c9af9192",
         "filename": "src/org/cyanogenmod/providers/datausage/DataUsageService.java",
         "patchSetId": 1
@@ -271,6 +390,23 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "ffb9cba7_c9af9192",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_e9629516",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 567,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-02-20T02:36:03Z",
+      "side": 1,
+      "message": "empty override",
       "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
