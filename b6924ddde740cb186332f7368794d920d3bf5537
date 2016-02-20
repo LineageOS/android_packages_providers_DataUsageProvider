@@ -71,6 +71,30 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_09f5a957",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-02-20T02:15:03Z",
+      "side": 1,
+      "message": "not sure what you mean by runtime permission check, I am not doing any in the code now.",
+      "parentUuid": "ffb9cba7_49c6416a",
+      "range": {
+        "startLine": 11,
+        "startChar": 54,
+        "endLine": 11,
+        "endChar": 70
+      },
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_e9a055a8",
         "filename": "res/values/strings.xml",
         "patchSetId": 1
@@ -82,6 +106,24 @@
       "writtenOn": "2016-02-20T00:49:57Z",
       "side": 1,
       "message": "Any reason these are all caps here? Can you use the allcaps attribute on the view?",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_69030544",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-02-20T02:15:03Z",
+      "side": 1,
+      "message": "These were specified as allcaps by the design team. I don\u0027t have access to the view, as these are used in the Notification.Builder (or do I?)",
+      "parentUuid": "ffb9cba7_e9a055a8",
       "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -105,6 +147,24 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_8900b936",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageAppInstallService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-02-20T02:15:03Z",
+      "side": 1,
+      "message": "does it matter? since I am using equalsIgnoreCase()? But if that\u0027s the standard, I will change it.",
+      "parentUuid": "ffb9cba7_09a609c3",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_a9aa5d82",
         "filename": "src/org/cyanogenmod/providers/datausage/DataUsageProvider.java",
         "patchSetId": 1
@@ -116,6 +176,24 @@
       "writtenOn": "2016-02-20T00:49:57Z",
       "side": 1,
       "message": "Any reason to keep this around?",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_29fd0d3a",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-02-20T02:15:03Z",
+      "side": 1,
+      "message": "debug leftover, will clean up.",
+      "parentUuid": "ffb9cba7_a9aa5d82",
       "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -139,6 +217,24 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_49fac142",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 534,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-02-20T02:15:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffb9cba7_c9af9192",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_69946545",
         "filename": "src/org/cyanogenmod/providers/datausage/DataUsageUtils.java",
         "patchSetId": 1
@@ -150,6 +246,24 @@
       "writtenOn": "2016-02-20T00:49:57Z",
       "side": 1,
       "message": "Does enb stand for enable? If so, why not use the full word for readability?",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_e994d5ea",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-02-20T02:15:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffb9cba7_69946545",
       "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
