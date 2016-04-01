@@ -1,0 +1,216 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_2a5170d9",
+        "filename": "Android.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-01T18:49:21Z",
+      "side": 1,
+      "message": "file needs copyright.",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_ca5f7ce3",
+        "filename": "Android.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-01T18:49:21Z",
+      "side": 1,
+      "message": "tab, need spaces.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 1
+      },
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_0a54b4c9",
+        "filename": "Android.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-01T18:49:21Z",
+      "side": 1,
+      "message": "unneeded",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 24
+      },
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_4a738c81",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-01T18:49:21Z",
+      "side": 1,
+      "message": "also needs copyright",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_6a1e880d",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageProvider.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-01T18:49:21Z",
+      "side": 1,
+      "message": "Do we want to notify of changes for any possible client content resolvers?\n\nI don\u0027t see any logic here where if any rows are affected that we\u0027d notify anyone listening(via observers).",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_4a214c4d",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageProvider.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-01T18:49:21Z",
+      "side": 1,
+      "message": "why the need to cast here? can\u0027t the original count just be an int?",
+      "range": {
+        "startLine": 265,
+        "startChar": 15,
+        "endLine": 265,
+        "endChar": 26
+      },
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_ca045cc9",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-01T18:49:21Z",
+      "side": 1,
+      "message": "extra lines",
+      "range": {
+        "startLine": 232,
+        "startChar": 0,
+        "endLine": 233,
+        "endChar": 0
+      },
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_4af86cc3",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-01T18:49:21Z",
+      "side": 1,
+      "message": "why * 2?",
+      "range": {
+        "startLine": 250,
+        "startChar": 23,
+        "endLine": 250,
+        "endChar": 53
+      },
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_6af528cb",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 520,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-01T18:49:21Z",
+      "side": 1,
+      "message": "if commented out, please remove.",
+      "range": {
+        "startLine": 520,
+        "startChar": 0,
+        "endLine": 520,
+        "endChar": 86
+      },
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_0a0274b5",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 531,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-01T18:49:21Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 530,
+        "startChar": 0,
+        "endLine": 531,
+        "endChar": 73
+      },
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
