@@ -82,6 +82,176 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_6ae3e806",
+        "filename": "MODULE_LICENSE_APACHE2",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "Delete file ?",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_0af034c9",
+        "filename": "res/values/colors.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "Missing copyright header",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_2aedf0ee",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "Missing copyright header",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_aaba40db",
+        "filename": "src/org/cyanogenmod/providers/datausage/BootReceiver.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "How often is this actually true ?\n\nI feel like this is a race where quite often than not,\nyou won\u0027t have an active network connection when you receive\nBOOT_COMPLETED",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_4acf0c7f",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageAppInstallReceiver.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "Might be worth logging what the intent had ?\nPackagename, installed vs uninstalled...etc",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_2ac65069",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageAppInstallService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "Lets use the constants in the Intent class for these",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_eaa598b6",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageAppInstallService.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "can just directly execute the statement inside the if, and make it return a default of -1",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_4ad06cf8",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageNotificationReceiver.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "Move this check before fetching the title from the intent extra",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_6acd285c",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageNotificationReceiver.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "Some weird formatting happening here",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_0ada7416",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageNotificationReceiver.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "What is the purpose of this object ?",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_6a1e880d",
         "filename": "src/org/cyanogenmod/providers/datausage/DataUsageProvider.java",
         "patchSetId": 5
@@ -93,6 +263,23 @@
       "writtenOn": "2016-04-01T18:49:21Z",
       "side": 1,
       "message": "Do we want to notify of changes for any possible client content resolvers?\n\nI don\u0027t see any logic here where if any rows are affected that we\u0027d notify anyone listening(via observers).",
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_2ad730f0",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageProvider.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "Weird formatting",
       "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -208,6 +395,23 @@
         "endLine": 531,
         "endChar": 73
       },
+      "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_ca053c7c",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageUtils.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2016-04-01T20:08:30Z",
+      "side": 1,
+      "message": "Move to top of class",
       "revId": "83473ff60b9026418c006851d0af08c25c7359f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
