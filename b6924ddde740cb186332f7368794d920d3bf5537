@@ -65,6 +65,24 @@
     },
     {
       "key": {
+        "uuid": "bfb3d3c7_8be3f1a4",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-04-01T15:35:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffb9cba7_c9bc716b",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_a9b7bd86",
         "filename": "AndroidManifest.xml",
         "patchSetId": 1
@@ -76,6 +94,24 @@
       "writtenOn": "2016-02-20T02:36:03Z",
       "side": 1,
       "message": "Since this provider will run under the system uid, please provide general unit tests for its interfaces.",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_4bef3987",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-04-01T15:35:12Z",
+      "side": 1,
+      "message": "Will do",
+      "parentUuid": "ffb9cba7_a9b7bd86",
       "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -153,6 +189,30 @@
     },
     {
       "key": {
+        "uuid": "bfb3d3c7_abe03598",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-04-01T15:35:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffb9cba7_09f5a957",
+      "range": {
+        "startLine": 11,
+        "startChar": 54,
+        "endLine": 11,
+        "endChar": 70
+      },
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_e9a055a8",
         "filename": "res/values/strings.xml",
         "patchSetId": 1
@@ -205,6 +265,24 @@
     },
     {
       "key": {
+        "uuid": "bfb3d3c7_4b4bb986",
+        "filename": "src/org/cyanogenmod/providers/datausage/AppItem.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-04-01T15:35:12Z",
+      "side": 1,
+      "message": "It was a class declared inside Settings.DataUsageSummary.java, so strictly speaking it came from AOSP :) but I changed the copyright to CyanogenMod",
+      "parentUuid": "ffb9cba7_69b1c58f",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_89ae792c",
         "filename": "src/org/cyanogenmod/providers/datausage/BootReceiver.java",
         "patchSetId": 1
@@ -222,6 +300,24 @@
     },
     {
       "key": {
+        "uuid": "bfb3d3c7_0b45c170",
+        "filename": "src/org/cyanogenmod/providers/datausage/BootReceiver.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-04-01T15:35:12Z",
+      "side": 1,
+      "message": "Changed to CyanogenMod",
+      "parentUuid": "ffb9cba7_89ae792c",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_29abcd1d",
         "filename": "src/org/cyanogenmod/providers/datausage/DataUsageAppInstallReceiver.java",
         "patchSetId": 1
@@ -233,6 +329,24 @@
       "writtenOn": "2016-02-20T02:36:03Z",
       "side": 1,
       "message": "\u0027\u0027",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_cb5ec944",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageAppInstallReceiver.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-04-01T15:35:12Z",
+      "side": 1,
+      "message": "Changed to CyanogenMod",
+      "parentUuid": "ffb9cba7_29abcd1d",
       "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -407,6 +521,24 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "ffb9cba7_c9af9192",
+      "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_8e345fe0",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 534,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-04-01T15:35:12Z",
+      "side": 1,
+      "message": "Actually, the indent is needed here :)",
+      "parentUuid": "ffb9cba7_49fac142",
       "revId": "b6924ddde740cb186332f7368794d920d3bf5537",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
