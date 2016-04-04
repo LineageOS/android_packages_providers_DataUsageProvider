@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_9b19d57a",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 14113
+      },
+      "writtenOn": "2016-04-04T22:01:06Z",
+      "side": 1,
+      "message": "The product team chose to use Mobile as opposed to Cellular. I can change it here (and below), but would also have to change the DISABLE APP\u0027s MOBILE DATA message above.",
+      "parentUuid": "7faddb67_78809f8c",
+      "range": {
+        "startLine": 25,
+        "startChar": 43,
+        "endLine": 25,
+        "endChar": 49
+      },
+      "revId": "5600f792ddbbecddedcebd29693c9937dc812d1e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_d873d3e6",
         "filename": "res/values/strings.xml",
         "patchSetId": 6
