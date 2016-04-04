@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_78809f8c",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-04T19:00:18Z",
+      "side": 1,
+      "message": "Cellular",
+      "range": {
+        "startLine": 25,
+        "startChar": 43,
+        "endLine": 25,
+        "endChar": 49
+      },
+      "revId": "5600f792ddbbecddedcebd29693c9937dc812d1e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_d873d3e6",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-04-04T19:00:18Z",
+      "side": 1,
+      "message": "cellular",
+      "range": {
+        "startLine": 26,
+        "startChar": 67,
+        "endLine": 26,
+        "endChar": 73
+      },
+      "revId": "5600f792ddbbecddedcebd29693c9937dc812d1e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
