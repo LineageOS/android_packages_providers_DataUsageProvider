@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_5b2d9d93",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-04-04T22:08:56Z",
+      "side": 1,
+      "message": "In the U.S. \"Cellular\" is more common a term.  This resource can easily be overlaid, per device or however else you want to do it, and call it \"Mobile\" there, thus making everyone happy. ;)",
+      "parentUuid": "7faddb67_9b19d57a",
+      "range": {
+        "startLine": 25,
+        "startChar": 43,
+        "endLine": 25,
+        "endChar": 49
+      },
+      "revId": "5600f792ddbbecddedcebd29693c9937dc812d1e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_d873d3e6",
         "filename": "res/values/strings.xml",
         "patchSetId": 6
