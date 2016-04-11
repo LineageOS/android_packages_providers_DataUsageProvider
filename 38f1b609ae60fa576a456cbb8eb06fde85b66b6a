@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_ee8d97d3",
+        "filename": "Android.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-11T15:43:33Z",
+      "side": 1,
+      "message": "there are no need for these if its commented out.",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 76
+      },
+      "revId": "38f1b609ae60fa576a456cbb8eb06fde85b66b6a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_ceabfb1a",
+        "filename": "Android.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-11T15:43:33Z",
+      "side": 1,
+      "message": "likewise",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 56
+      },
+      "revId": "38f1b609ae60fa576a456cbb8eb06fde85b66b6a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_eea6f753",
+        "filename": "src/org/cyanogenmod/providers/datausage/DataUsageNotificationReceiver.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-11T15:43:33Z",
+      "side": 1,
+      "message": "unneeded spaces",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 0
+      },
+      "revId": "38f1b609ae60fa576a456cbb8eb06fde85b66b6a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
