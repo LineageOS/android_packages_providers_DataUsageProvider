@@ -15,11 +15,26 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Provider utilizzo dati</string>
+  <string name="data_usage_disable_short">DISATTIVA</string>
+  <string name="data_usage_disable_long">DISATTIVA RETI MOBILI PER L\'APP</string>
+  <string name="data_usage_hide">NASCONDI</string>
+  <string name="data_usage_disable_message">Disattiva accesso reti mobili per %s</string>
+  <string name="data_usage_hide_message">Nascondi avvisi d\'utilizzo dati per %s</string>
+  <string name="data_usage_notify_title">Avviso dati mobili</string>
+  <string name="data_usage_notify_big_text">%s sta utilizzando molti dati mobili. Tocca per vedere i dettagli.</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
+  <string name="managed_user_title">Profilo di lavoro</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
+  <string name="unknown">Sconosciuta</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
+  <string name="user_guest">Ospite</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
+  <string name="running_process_item_user_label">Utente: <xliff:g id="user_name">%1$s</xliff:g></string>
   <!-- Label for kernel threads in battery usage -->
+  <string name="process_kernel_label">Android OS</string>
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
+  <string name="data_usage_uninstalled_apps">App rimosse</string>
   <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
+  <string name="data_usage_uninstalled_apps_users">App e utenti rimossi</string>
 </resources>

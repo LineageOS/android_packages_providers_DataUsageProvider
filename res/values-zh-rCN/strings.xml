@@ -15,11 +15,26 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">数据用量提供商</string>
+  <string name="data_usage_disable_short">禁用</string>
+  <string name="data_usage_disable_long">禁用的应用的移动网络</string>
+  <string name="data_usage_hide">隐藏</string>
+  <string name="data_usage_disable_message">禁用 %s 的移动数据网络访问</string>
+  <string name="data_usage_hide_message">隐藏 %s 的数据使用警告</string>
+  <string name="data_usage_notify_title">移动数据警报</string>
+  <string name="data_usage_notify_big_text">%s 正在使用大量的移动数据。点击可查看详细信息。</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
+  <string name="managed_user_title">工作情景</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
+  <string name="unknown">未知</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
+  <string name="user_guest">访客</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
+  <string name="running_process_item_user_label">用户︰ <xliff:g id="user_name">%1$s </xliff:g></string>
   <!-- Label for kernel threads in battery usage -->
+  <string name="process_kernel_label">Android OS</string>
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
+  <string name="data_usage_uninstalled_apps">已删除的应用</string>
   <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
+  <string name="data_usage_uninstalled_apps_users">已删除的应用和用户</string>
 </resources>

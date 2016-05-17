@@ -17,7 +17,12 @@ limitations under the License.
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Proveïdor de dades d\'ús</string>
   <string name="data_usage_disable_short">DESHABILITA</string>
+  <string name="data_usage_disable_long">DESHABILITA LES DADES MÒBILS EN L\'APLICACIÓ</string>
   <string name="data_usage_hide">AMAGA</string>
+  <string name="data_usage_disable_message">S\'està deshabilitant l\'accés a la xarxa de dades mòbil per a %s</string>
+  <string name="data_usage_hide_message">S\'estan amagant els avisos d\'ús de dades per a %s</string>
+  <string name="data_usage_notify_title">Alerta de dades mòbils</string>
+  <string name="data_usage_notify_big_text">%s està utilitzant una gran quantitat de dades mòbils. Pica per visualitzar els detalls.</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
   <string name="managed_user_title">Perfil de treball</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
@@ -29,5 +34,7 @@ limitations under the License.
   <!-- Label for kernel threads in battery usage -->
   <string name="process_kernel_label">Android OS</string>
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
+  <string name="data_usage_uninstalled_apps">Aplicacions tretes</string>
   <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
+  <string name="data_usage_uninstalled_apps_users">Aplicacions i usuaris trets</string>
 </resources>
