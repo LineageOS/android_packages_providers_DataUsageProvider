@@ -15,13 +15,16 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Datennutzungs-Anbieter</string>
   <string name="data_usage_disable_short">DEAKTIVIEREN</string>
+  <string name="data_usage_disable_long">MOBILFUNKDATENZUGRIFF DER APP DEAKTIVIEREN</string>
   <string name="data_usage_hide">AUSBLENDEN</string>
   <string name="data_usage_disable_message">Mobilfunkdatenzugriff für %s deaktivieren</string>
   <string name="data_usage_hide_message">Datennutzungs-Warnungen für %s ausblenden</string>
   <string name="data_usage_notify_title">Mobilfunkdaten-Warnung</string>
   <string name="data_usage_notify_big_text">%s hat einen hohen Mobilfunkdatenverbrauch. Tippen, um Details zu sehen.</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
+  <string name="managed_user_title">Arbeitsprofil</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
   <string name="unknown">Unbekannt</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
