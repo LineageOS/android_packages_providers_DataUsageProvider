@@ -23,7 +23,9 @@ limitations under the License.
   <string name="managed_user_title">Arbetsprofil</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
   <!-- Title for Guest user [CHAR LIMIT=35] -->
+  <string name="user_guest">Gäst</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
+  <string name="running_process_item_user_label">Användare: <xliff:g id="user_name">%1$s</xliff:g></string>
   <!-- Label for kernel threads in battery usage -->
   <string name="process_kernel_label">Android OS</string>
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
