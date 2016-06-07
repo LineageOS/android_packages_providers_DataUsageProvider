@@ -24,8 +24,10 @@ limitations under the License.
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
   <string name="unknown">Невядомы</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
+  <string name="user_guest">Госць</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
   <!-- Label for kernel threads in battery usage -->
+  <string name="process_kernel_label">АС Android</string>
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
   <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
 </resources>
