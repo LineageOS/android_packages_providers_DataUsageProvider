@@ -15,7 +15,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Provedor de utilização de dados</string>
+  <string name="app_name">Fornecedor de utilização de dados</string>
   <string name="data_usage_disable_short">DESATIVAR</string>
   <string name="data_usage_disable_long">DESATIVAR DADOS MÓVEIS DA APLICAÇÃO</string>
   <string name="data_usage_hide">ESCONDER</string>
