@@ -15,6 +15,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Dostawca Użycia Danych</string>
+  <string name="data_usage_disable_short">WYŁĄCZ</string>
+  <string name="data_usage_disable_long">WYŁĄCZANIE DANYCH KOMÓRKOWYCH APLIKACJI</string>
+  <string name="data_usage_hide">UKRYJ</string>
+  <string name="data_usage_disable_message">Wyłączanie dostępu do danych sieci komórkowej dla %s</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
   <!-- Title for Guest user [CHAR LIMIT=35] -->
