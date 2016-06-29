@@ -22,6 +22,7 @@ limitations under the License.
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
   <string name="managed_user_title">Arbetsprofil</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
+  <string name="unknown">Okänd</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
   <string name="user_guest">Gäst</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
