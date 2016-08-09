@@ -15,6 +15,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">ספק שימוש בנתונים</string>
   <string name="data_usage_disable_short">השבתה</string>
   <string name="data_usage_disable_long">השבת תקשורת סלולרית ליישום זה</string>
   <string name="data_usage_hide">הסתרה</string>
