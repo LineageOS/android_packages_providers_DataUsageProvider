@@ -16,10 +16,13 @@ limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="data_usage_disable_short">UITSCHAKELEN</string>
+  <string name="data_usage_disable_long">MOBIELE GEGEVENS VOOR DEZE APP UITSCHAKELEN</string>
   <string name="data_usage_hide">VERBERGEN</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
+  <string name="unknown">Onbekend</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
+  <string name="user_guest">Gast</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
   <!-- Label for kernel threads in battery usage -->
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
