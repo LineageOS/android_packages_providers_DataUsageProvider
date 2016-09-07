@@ -25,6 +25,8 @@ limitations under the License.
   <string name="user_guest">Gast</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
   <!-- Label for kernel threads in battery usage -->
+  <string name="process_kernel_label">Android OS</string>
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
+  <string name="data_usage_uninstalled_apps">Verwijderde apps</string>
   <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
 </resources>
