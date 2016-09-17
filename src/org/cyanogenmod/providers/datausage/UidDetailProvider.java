@@ -154,8 +154,11 @@ public class UidDetailProvider {
 
                     if (appInfo != null) {
                         if (packageInfo.sharedUserLabel != 0) {
-                            detail.label = pm.getText(packageName, packageInfo.sharedUserLabel,
-                                    packageInfo.applicationInfo).toString();
+                            CharSequence label = pm.getText(packageName,
+                                    packageInfo.sharedUserLabel, packageInfo.applicationInfo);
+                            if (label != null) {
+                                detail.label = label.toString();
+                            }
                         }
                     }
                 }
