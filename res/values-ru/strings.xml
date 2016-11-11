@@ -17,12 +17,12 @@ limitations under the License.
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Поставщик использования данных</string>
   <string name="data_usage_disable_short">ОТКЛЮЧИТЬ</string>
-  <string name="data_usage_disable_long">ОТКЛЮЧЕНИЕ ПЕРЕДАЧИ ДАННЫХ ПРИЛОЖЕНИЯ</string>
+  <string name="data_usage_disable_long">ЗАПРЕТИТЬ ПЕРЕДАЧУ ДАННЫХ ПРИЛОЖЕНИЮ</string>
   <string name="data_usage_hide">СКРЫТЬ</string>
-  <string name="data_usage_disable_message">Отключение доступа к передаче данных для %s</string>
+  <string name="data_usage_disable_message">Запрет доступа к мобильным данным для %s</string>
   <string name="data_usage_hide_message">Скрытие предупреждений для %s</string>
   <string name="data_usage_notify_title">Предупреждение о передаче моб. данных</string>
-  <string name="data_usage_notify_big_text">%s использует много сотовых данных. Нажмите для просмотра подробных сведений.</string>
+  <string name="data_usage_notify_big_text">%s использует большое количество трафика. Нажмите для просмотра подробных сведений.</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
   <string name="managed_user_title">Рабочий профиль</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
