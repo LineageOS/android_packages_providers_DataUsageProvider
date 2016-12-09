@@ -17,7 +17,9 @@ limitations under the License.
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
+  <string name="unknown">Nekonata</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
+  <string name="user_guest">Gasto</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
   <!-- Label for kernel threads in battery usage -->
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
