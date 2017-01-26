@@ -24,7 +24,7 @@ limitations under the License.
   <string name="data_usage_notify_title">行動數據警報</string>
   <string name="data_usage_notify_big_text">%s 使用大量的行動數據。輕觸即可查看詳細資訊。</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
-  <string name="managed_user_title">工作設定檔</string>
+  <string name="managed_user_title">Work 設定檔</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
   <string name="unknown">未知</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
