@@ -15,11 +15,26 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Veri Kullanımı Sağlayıcısı</string>
+  <string name="data_usage_disable_short">DEVRE DIŞI BIRAK</string>
+  <string name="data_usage_disable_long">UYGULAMALARIN MOBİL VERİSİNİ DEVRE DIŞI BIRAK</string>
+  <string name="data_usage_hide">GİZLE</string>
+  <string name="data_usage_disable_message">%s için hücresel veri ağ erişimi devre dışı bırakılıyor</string>
+  <string name="data_usage_hide_message">Veri kullanım uyarıları %s için gizleniyor</string>
+  <string name="data_usage_notify_title">Hücresel veri uyarısı</string>
+  <string name="data_usage_notify_big_text">%s çok fazla hücresel veri kullanıyor. Ayrıntılarını görüntülemek için dokunun.</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
+  <string name="managed_user_title">Çalışma profili</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
+  <string name="unknown">Bilinmeyen</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
+  <string name="user_guest">Misafir</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
+  <string name="running_process_item_user_label">Kullanıcı: <xliff:g id="user_name">%1$s</xliff:g></string>
   <!-- Label for kernel threads in battery usage -->
+  <string name="process_kernel_label">Android OS</string>
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
+  <string name="data_usage_uninstalled_apps">Kaldırılan uygulamalar</string>
   <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
+  <string name="data_usage_uninstalled_apps_users">Kaldırılmış kullanıcılar ve uygulamalar</string>
 </resources>
