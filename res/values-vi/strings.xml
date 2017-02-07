@@ -15,11 +15,26 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Nhà cung cấp sử dụng dữ liệu</string>
+  <string name="data_usage_disable_short">TẮT</string>
+  <string name="data_usage_disable_long">TẮT DỮ LIỆU DI ĐỘNG CỦA ỨNG DỤNG</string>
+  <string name="data_usage_hide">ẨN</string>
+  <string name="data_usage_disable_message">Tắt truy nhập mạng dữ liệu di động cho %s</string>
+  <string name="data_usage_hide_message">Ẩn cảnh báo việc sử dụng dữ liệu cho %s</string>
+  <string name="data_usage_notify_title">Cảnh báo dữ liệu di động</string>
+  <string name="data_usage_notify_big_text">%s sử dụng rất nhiều dữ liệu di động. Bấm vào để xem chi tiết.</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
+  <string name="managed_user_title">Cấu hình công việc</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
+  <string name="unknown">Không rõ</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
+  <string name="user_guest">Khách</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
+  <string name="running_process_item_user_label">Người dùng: <xliff:g id="user_name">%1$s</xliff:g></string>
   <!-- Label for kernel threads in battery usage -->
+  <string name="process_kernel_label">Hệ điều hành Android</string>
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
+  <string name="data_usage_uninstalled_apps">Ứng dụng đã xóa</string>
   <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
+  <string name="data_usage_uninstalled_apps_users">Ứng dụng và người dùng đã xóa</string>
 </resources>
