@@ -15,6 +15,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="data_usage_disable_message">Disabling mobile data network access for %s</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
   <!-- Title for Guest user [CHAR LIMIT=35] -->

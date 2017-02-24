@@ -15,15 +15,21 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Data Usage Provider</string>
+  <string name="data_usage_disable_short">DISABLE</string>
   <string name="data_usage_disable_long">DISABLE APP\'S MOBILE DATA</string>
+  <string name="data_usage_hide">HIDE</string>
   <string name="data_usage_disable_message">Disabling mobile data network access for %s</string>
+  <string name="data_usage_hide_message">Hiding data usage warnings for %s</string>
   <string name="data_usage_notify_title">Mobile data alert</string>
   <string name="data_usage_notify_big_text">%s is using a lot of mobile data. Tap to view details.</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
+  <string name="managed_user_title">Work profile</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
   <!-- Title for Guest user [CHAR LIMIT=35] -->
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
   <!-- Label for kernel threads in battery usage -->
+  <string name="process_kernel_label">Android OS</string>
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
   <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
 </resources>
