@@ -16,7 +16,11 @@ limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Fournisseur de l’utilisation des données</string>
+  <string name="data_usage_disable_short">DÉSACTIVER</string>
   <string name="data_usage_disable_long">DÉSACTIVER LES DONNÉES MOBILES</string>
+  <string name="data_usage_hide">MASQUER</string>
+  <string name="data_usage_disable_message">Désactivation de l’accès au réseau de données mobiles pour %s</string>
+  <string name="data_usage_hide_message">Masquage des avertissements d’utilisation de données pour %s</string>
   <string name="data_usage_notify_title">Alerte d\'utilisation des données mobiles</string>
   <string name="data_usage_notify_big_text">%s utilise une grande quantité de données mobiles. Touchez pour afficher les détails.</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->

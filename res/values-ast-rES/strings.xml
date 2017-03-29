@@ -16,13 +16,17 @@ limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Fornidor d\'usu de datos</string>
+  <string name="data_usage_disable_short">DESHABILITAR</string>
+  <string name="data_usage_disable_long">DESHABILITAR DATOS MÓVILES DE L\'APLICACIÓN</string>
   <string name="data_usage_hide">ANUBRIR</string>
+  <string name="data_usage_disable_message">Deshabilitando l\'accesu a redes de datos móviles pa %s</string>
   <string name="data_usage_hide_message">Anubriendo alvertencies d\'usu de datos pa %s</string>
   <string name="data_usage_notify_title">Alerta de datos móviles</string>
   <string name="data_usage_notify_big_text">%s ta usando munchos datos móviles. Calca pa ver los detalles.</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
   <string name="managed_user_title">Perfil de trabayu</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
+  <string name="unknown">Desconocíu</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
   <string name="user_guest">Convidáu</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
