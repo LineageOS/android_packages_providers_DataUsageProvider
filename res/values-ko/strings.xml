@@ -19,11 +19,16 @@ limitations under the License.
   <string name="data_usage_disable_short">사용 안 함</string>
   <string name="data_usage_disable_long">앱의 이동 통신망 데이터 사용 안 함</string>
   <string name="data_usage_hide">숨기기</string>
+  <string name="data_usage_disable_message">%s의 이동 통신망 데이터 사용 해제</string>
+  <string name="data_usage_hide_message">%s에 대한 데이터 사용 경고 숨기기</string>
   <string name="data_usage_notify_title">이동 통신망 데이터 경고</string>
+  <string name="data_usage_notify_big_text">%s에서 굉장히 많은 이동 통신망 데이터를 사용하고 있습니다. 자세한 정보를 보려면 누르세요.</string>
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
+  <string name="managed_user_title">직장 프로필</string>
   <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
   <string name="unknown">알 수 없음</string>
   <!-- Title for Guest user [CHAR LIMIT=35] -->
+  <string name="user_guest">손님</string>
   <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
   <string name="running_process_item_user_label">사용자: <xliff:g id="user_name">%1$s</xliff:g></string>
   <!-- Label for kernel threads in battery usage -->
