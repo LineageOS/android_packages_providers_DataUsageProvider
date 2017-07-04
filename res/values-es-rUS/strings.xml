@@ -16,7 +16,7 @@ limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Proveedor de uso de datos</string>
-  <string name="data_usage_disable_short">DESACTIVADO</string>
+  <string name="data_usage_disable_short">DESACTIVAR</string>
   <string name="data_usage_disable_long">DESACTIVAR DATOS MÓVILES DE LA APLICACIÓN</string>
   <string name="data_usage_hide">OCULTAR</string>
   <string name="data_usage_disable_message">Desactivar el acceso a la red de datos móviles para %s</string>
@@ -34,7 +34,7 @@ limitations under the License.
   <!-- Label for kernel threads in battery usage -->
   <string name="process_kernel_label">Android OS</string>
   <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
-  <string name="data_usage_uninstalled_apps">Aplicaciones removidas</string>
+  <string name="data_usage_uninstalled_apps">Aplicaciones eliminadas</string>
   <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
-  <string name="data_usage_uninstalled_apps_users">Aplicaciones y usuarios removidos</string>
+  <string name="data_usage_uninstalled_apps_users">Aplicaciones y usuarios eliminados</string>
 </resources>
