@@ -15,7 +15,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">資料數據提供者</string>
+  <string name="app_name">資料數據供應商</string>
   <string name="data_usage_disable_short">停用</string>
   <string name="data_usage_disable_long">停用應用程式的行動數據服務</string>
   <string name="data_usage_hide">隱藏</string>
