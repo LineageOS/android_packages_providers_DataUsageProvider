@@ -59,7 +59,6 @@ import android.os.SystemProperties;
 import android.content.pm.UserInfo;
 
 import android.util.SparseArray;
-import com.google.gson.Gson;
 
 import lineageos.providers.DataUsageContract;
 import lineageos.providers.LineageSettings;
@@ -239,11 +238,6 @@ public class DataUsageService extends IntentService {
         }
     }
 
-    private class DataUsageExtraInfo {
-        ArrayList<Long> samples;
-    }
-    private String mAppWarnExtra;
-
     private void dataUsageUpdate() {
         long startTime = 0;
         long endTime = System.currentTimeMillis();
@@ -325,7 +319,6 @@ public class DataUsageService extends IntentService {
             appWarnSlowAvg = cursor.getLong(DataUsageContract.COLUMN_OF_SLOW_AVG);
             appWarnFastSamples = cursor.getInt(DataUsageContract.COLUMN_OF_FAST_SAMPLES);
             appWarnFastAvg = cursor.getLong(DataUsageContract.COLUMN_OF_FAST_AVG);
-            mAppWarnExtra = cursor.getString(DataUsageContract.COLUMN_OF_EXTRA);
 
             AppItem appItem = mKnownItems.get((int)appWarnUid);
 
@@ -438,14 +431,12 @@ public class DataUsageService extends IntentService {
             int active, long bytes
     ) {
         ContentValues values = new ContentValues();
-        String extraInfo = genExtraInfo(bytes);
         values.put(DataUsageContract.SLOW_AVG, slowAvg);
         values.put(DataUsageContract.SLOW_SAMPLES, slowSamples);
         values.put(DataUsageContract.FAST_AVG, fastAvg);
         values.put(DataUsageContract.FAST_SAMPLES, fastSamples);
         values.put(DataUsageContract.ACTIVE, active);
         values.put(DataUsageContract.BYTES, bytes);
-        values.put(DataUsageContract.EXTRA, extraInfo);
 
         getContentResolver().update(
                 DataUsageContract.CONTENT_URI,
@@ -454,44 +445,6 @@ public class DataUsageService extends IntentService {
                 new String[]{String.valueOf(uid)}
         );
     }
-
-
-    /**
-     * In debug mode, generate extra samples inforamation that can be used to analyze
-     * algorithm manually
-     */
-    private String genExtraInfo(long bytes) {
-        if (!DEBUG) {
-            return "";
-        }
-
-        Gson gson = new Gson();
-        DataUsageExtraInfo extraInfo;
-
-        if (mAppWarnExtra == null || mAppWarnExtra == "") {
-            extraInfo = null;
-        } else {
-            try {
-                extraInfo = gson.fromJson(mAppWarnExtra, DataUsageExtraInfo.class);
-            } catch (Exception e) {
-                extraInfo = null;
-            }
-        }
-
-        if (extraInfo == null) {
-            extraInfo = new DataUsageExtraInfo();
-            extraInfo.samples = new ArrayList<Long>();
-        }
-
-        if (extraInfo.samples.size() == MAX_EXTRA_SAMPLE_COUNT) {
-            extraInfo.samples.remove(0);
-        }
-        extraInfo.samples.add(bytes);
-        String extraInfoJson = gson.toJson(extraInfo);
-        return extraInfoJson;
-    }
-
-
 
     private void genNotification(long uid, String appTitle, boolean firstTime) {
         Intent hideIntent = new Intent();
