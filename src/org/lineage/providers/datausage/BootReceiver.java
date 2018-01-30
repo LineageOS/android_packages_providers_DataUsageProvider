@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2016, The CyanogenMod Project
+ * Copyright (c) 2018, The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,30 +15,25 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.providers.datausage;
+package org.lineageos.providers.datausage;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 
+public class BootReceiver extends BroadcastReceiver {
 
-public class DataUsageConnectivityReceiver extends BroadcastReceiver {
-    private static final String TAG = DataUsageConnectivityReceiver.class.getSimpleName();
+    private static final String TAG = BootReceiver.class.getSimpleName();
     private static final boolean DEBUG = true;
+
     @Override
     public void onReceive(Context context, Intent intent) {
-        // datausage service is only run for metered mobile connections
         boolean qualified = DataUsageUtils.isDataUsageQualified(context);
-        if (DEBUG) {
-            Log.v(TAG, "onReceived: qualified: " + qualified);
-        }
+
+        // start DataUsage service once the device boots up, but only if
+        // on qualified network and the service itself is enabled from the Settings->DataUsage
         if (qualified) {
-            // start DataUsage service, but only if enabled
             DataUsageUtils.startDataUsageServiceIfEnabled(context);
-        } else {
-            // stop DataUsage service
-            DataUsageUtils.enableDataUsageService(context, false);
         }
     }
 }

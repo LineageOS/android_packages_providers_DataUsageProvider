@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2016, The CyanogenMod Project
+ * Copyright (c) 2018, The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.providers.datausage;
+package org.lineageos.providers.datausage;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -29,7 +30,7 @@ import android.net.Uri;
 import android.provider.ContactsContract;
 import android.util.Log;
 
-import cyanogenmod.providers.DataUsageContract;
+import lineageos.providers.DataUsageContract;
 
 /**
  * ContentProvider for the DataUsage statistics gathering of the Settings App

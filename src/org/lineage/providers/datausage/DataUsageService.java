@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2016, The CyanogenMod Project
+ * Copyright (c) 2018, The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.providers.datausage;
+package org.lineageos.providers.datausage;
 
 import android.app.ActivityManager;
 import android.app.IntentService;
@@ -60,8 +61,8 @@ import android.content.pm.UserInfo;
 import android.util.SparseArray;
 import com.google.gson.Gson;
 
-import cyanogenmod.providers.DataUsageContract;
-import cyanogenmod.providers.CMSettings;
+import lineageos.providers.DataUsageContract;
+import lineageos.providers.CMSettings;
 
 
 /**
@@ -124,14 +125,14 @@ public class DataUsageService extends IntentService {
     public static final int DATA_USAGE_SERVICE_NOTIFICATION_ID = 102030;
 
     public static final String HIDE_ACTION      =
-            "org.cyanogenmod.providers.datausage.hide_action";
+            "org.lineageos.providers.datausage.hide_action";
     public static final String DISABLE_ACTION   =
-            "org.cyanogenmod.providers.datausage.disable_action";
+            "org.lineageos.providers.datausage.disable_action";
     public static final int DATA_USAGE_BROADCAST_REQUEST_CODE   = 0x102040; // TODO - ???
     public static final String DATA_USAGE_NOTIFICATION_UID   =
-            "org.cyanogenmod.providers.datausage.notification_uid";
+            "org.lineageos.providers.datausage.notification_uid";
     public static final String DATA_USAGE_NOTIFICATION_TITLE =
-            "org.cyanogenmod.providers.datausage.notification_title";
+            "org.lineageos.providers.datausage.notification_title";
 
     public DataUsageService() {
         super(TAG);
@@ -512,7 +513,7 @@ public class DataUsageService extends IntentService {
         );
 
         Intent dataUsageIntent = new Intent();
-        dataUsageIntent.setAction(cyanogenmod.providers.CMSettings.ACTION_DATA_USAGE);
+        dataUsageIntent.setAction(lineageos.providers.CMSettings.ACTION_DATA_USAGE);
         dataUsageIntent.addCategory(Intent.CATEGORY_DEFAULT);
         dataUsageIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         dataUsageIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
