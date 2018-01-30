@@ -62,7 +62,7 @@ import android.util.SparseArray;
 import com.google.gson.Gson;
 
 import lineageos.providers.DataUsageContract;
-import lineageos.providers.CMSettings;
+import lineageos.providers.LineageSettings;
 
 
 /**
@@ -513,7 +513,7 @@ public class DataUsageService extends IntentService {
         );
 
         Intent dataUsageIntent = new Intent();
-        dataUsageIntent.setAction(lineageos.providers.CMSettings.ACTION_DATA_USAGE);
+        dataUsageIntent.setAction(lineageos.providers.LineageSettings.ACTION_DATA_USAGE);
         dataUsageIntent.addCategory(Intent.CATEGORY_DEFAULT);
         dataUsageIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         dataUsageIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
