@@ -15,11 +15,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Title for a work profile. [CHAR LIMIT=25] -->
-  <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
-  <!-- Title for Guest user [CHAR LIMIT=35] -->
-  <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
-  <!-- Label for kernel threads in battery usage -->
-  <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
-  <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
+    <string name="app_name">مُوفر استخدام البيانات</string>
+    <string name="data_usage_disable_short">ايقاف</string>
+    <string name="data_usage_disable_long">تعطيل البيانات الخلوية للتطبيق</string>
+    <string name="data_usage_hide">إخفاء</string>
+    <string name="data_usage_disable_message">تعطيل الوصول إلى شبكة البيانات الخلوية لـ %s</string>
+    <string name="data_usage_hide_message">إخفاء تحذيرات استخدام البيانات لمدة %s</string>
+    <string name="data_usage_notify_title">تنبيه البيانات الخلوية</string>
+    <string name="data_usage_notify_big_text">%s يستخدم الكثير من البيانات الخلوية. اضغط لعرض التفاصيل.</string>
+    <string name="managed_user_title">الملف الشخصي للعمل</string>
+    <string name="unknown">غير معروف</string>
+    <string name="user_guest">الضيف</string>
+    <string name="running_process_item_user_label">المستخدم: <xliff:g id="User_NAME">%1$s</xliff:g></string>
+    <string name="process_kernel_label">‏نظام تشغيل Android</string>
+    <string name="data_usage_uninstalled_apps">التطبيقات المزالة</string>
+    <string name="data_usage_uninstalled_apps_users">التطبيقات والمستخدمون الذين تمت إزالتهم</string>
 </resources>
