@@ -15,11 +15,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Title for a work profile. [CHAR LIMIT=25] -->
-  <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
-  <!-- Title for Guest user [CHAR LIMIT=35] -->
-  <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
-  <!-- Label for kernel threads in battery usage -->
-  <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
-  <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
+    <string name="app_name">Darparwr Defnydd Data</string>
+    <string name="data_usage_disable_short">ANALLUOGI</string>
+    <string name="data_usage_disable_long">ANALLUOGI DATA SYMUDOL YR AP</string>
+    <string name="data_usage_hide">CUDDIO</string>
+    <string name="data_usage_disable_message">Yn analluogi mynediad %s i ddata rhwydwaith symudol</string>
+    <string name="data_usage_hide_message">Yn cuddio rhybuddion defnydd data ar gyfer %s</string>
+    <string name="data_usage_notify_title">Rhybudd data symudol</string>
+    <string name="data_usage_notify_big_text">Mae %s yn defnyddio lot o ddata symudol. Tapia i weld manylion.</string>
+    <string name="managed_user_title">Proffil gwaith</string>
+    <string name="unknown">Anhysybys</string>
+    <string name="user_guest">Gwestai</string>
+    <string name="running_process_item_user_label">Defnyddiwr: <xliff:g id="user_name">%1$s</xliff:g></string>
+    <string name="process_kernel_label">Android OS</string>
+    <string name="data_usage_uninstalled_apps">Apiau wedi eu tynnu</string>
+    <string name="data_usage_uninstalled_apps_users">Apiau a defnyddwyr wedi eu tynnu</string>
 </resources>

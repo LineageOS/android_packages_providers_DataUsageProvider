@@ -15,11 +15,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Title for a work profile. [CHAR LIMIT=25] -->
-  <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
-  <!-- Title for Guest user [CHAR LIMIT=35] -->
-  <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
-  <!-- Label for kernel threads in battery usage -->
-  <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
-  <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
+    <string name="app_name">ผู้ให้บริการการใช้ข้อมูล</string>
+    <string name="data_usage_disable_short">ปิดการใช้งาน</string>
+    <string name="data_usage_disable_long">ปิดการใช้งานข้อมูลเครือข่ายในแอป</string>
+    <string name="data_usage_hide">ซ่อน</string>
+    <string name="data_usage_disable_message">กำลังปิดใช้งานข้อมูลมือถือสำหรับ %s</string>
+    <string name="data_usage_hide_message">กำลังซ่อนการเตือนสำหรับการใช้ข้อมูลของ %s</string>
+    <string name="data_usage_notify_title">แจ้งเตือนข้อมูลเครือข่าย</string>
+    <string name="data_usage_notify_big_text">%s กำลังใช้ข้อมูลมือถือเยอะมาก แตะเพื่อดูรายละเอียด</string>
+    <string name="managed_user_title">โปรไฟล์ทำงาน</string>
+    <string name="unknown">ไม่รู้จัก</string>
+    <string name="user_guest">ผู้เยี่ยมชม</string>
+    <string name="running_process_item_user_label">ผู้ใช้: <xliff:g id="user_name">%1$s</xliff:g></string>
+    <string name="process_kernel_label">Android OS</string>
+    <string name="data_usage_uninstalled_apps">นำแอปออกแล้ว</string>
+    <string name="data_usage_uninstalled_apps_users">ลบแอปและผู้ใช้แล้ว</string>
 </resources>

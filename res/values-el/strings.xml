@@ -15,26 +15,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Πάροχος χρήσης δεδομένων</string>
-  <string name="data_usage_disable_short">ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ</string>
-  <string name="data_usage_disable_long">ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ ΔΕΔΟΜΕΝΩΝ ΚΙΝ. ΤΗΛΕΦΩΝΙΑΣ ΤΗΣ ΕΦΑΡΜΟΓΗΣ</string>
-  <string name="data_usage_hide">ΑΠΟΚΡΥΨΗ</string>
-  <string name="data_usage_disable_message">Απενεργοποίηση πρόσβασης δικτύου δεδομένων κινητής τηλεφωνίας για: %s</string>
-  <string name="data_usage_hide_message">Απόκρυψη προειδοποιήσεων χρήσης δεδομένων για: %s</string>
-  <string name="data_usage_notify_title">Προειδοποίηση δεδομένων κινητής τηλεφωνίας</string>
-  <string name="data_usage_notify_big_text">Η εφαρμογή %s χρησιμοποιεί πολλά δεδομένα κινητής τηλεφωνίας. Πατήστε για να δείτε λεπτομέρειες.</string>
-  <!-- Title for a work profile. [CHAR LIMIT=25] -->
-  <string name="managed_user_title">Προφίλ εργασίας</string>
-  <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
-  <string name="unknown">Άγνωστη</string>
-  <!-- Title for Guest user [CHAR LIMIT=35] -->
-  <string name="user_guest">Επισκέπτης</string>
-  <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
-  <string name="running_process_item_user_label">Χρήστης: <xliff:g id="user_name">%1$s</xliff:g></string>
-  <!-- Label for kernel threads in battery usage -->
-  <string name="process_kernel_label">Σύστημα Android</string>
-  <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
-  <string name="data_usage_uninstalled_apps">Εφαρμογές που έχουν διαγραφεί</string>
-  <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
-  <string name="data_usage_uninstalled_apps_users">Εφαρμογές και χρήστες που έχουν διαγραφεί</string>
+    <string name="app_name">Πάροχος χρήσης δεδομένων</string>
+    <string name="data_usage_disable_short">ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ</string>
+    <string name="data_usage_disable_long">ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ ΔΕΔΟΜΕΝΩΝ ΚΙΝ. ΤΗΛΕΦΩΝΙΑΣ ΤΗΣ ΕΦΑΡΜΟΓΗΣ</string>
+    <string name="data_usage_hide">ΑΠΟΚΡΥΨΗ</string>
+    <string name="data_usage_disable_message">Απενεργοποίηση πρόσβασης δικτύου δεδομένων κινητής τηλεφωνίας για: %s</string>
+    <string name="data_usage_hide_message">Απόκρυψη προειδοποιήσεων χρήσης δεδομένων για: %s</string>
+    <string name="data_usage_notify_title">Προειδοποίηση δεδομένων κινητής τηλεφωνίας</string>
+    <string name="data_usage_notify_big_text">Η εφαρμογή %s χρησιμοποιεί πολλά δεδομένα κινητής τηλεφωνίας. Πατήστε για να δείτε λεπτομέρειες.</string>
+    <string name="managed_user_title">Προφίλ εργασίας</string>
+    <string name="unknown">Άγνωστη</string>
+    <string name="user_guest">Επισκέπτης</string>
+    <string name="running_process_item_user_label">Χρήστης: <xliff:g id="user_name">%1$s</xliff:g></string>
+    <string name="process_kernel_label">Σύστημα Android</string>
+    <string name="data_usage_uninstalled_apps">Εφαρμογές που έχουν διαγραφεί</string>
+    <string name="data_usage_uninstalled_apps_users">Εφαρμογές και χρήστες που έχουν διαγραφεί</string>
 </resources>

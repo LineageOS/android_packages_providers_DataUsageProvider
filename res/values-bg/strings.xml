@@ -15,26 +15,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Доставчикът на данни</string>
-  <string name="data_usage_disable_short">ДЕАКТИВИРАНЕ</string>
-  <string name="data_usage_disable_long">ЗАБРАНИ МОБИЛНИ ЗАННИ ЗА ТОВА ПРИЛОЖЕНИЕ</string>
-  <string name="data_usage_hide">СКРИЙ</string>
-  <string name="data_usage_disable_message">Забрани достъпа до мобилни данни за %s</string>
-  <string name="data_usage_hide_message">Скрииване на предупреждения за мобилни данни за %s</string>
-  <string name="data_usage_notify_title">Предупреждение за мобилни данни</string>
-  <string name="data_usage_notify_big_text">%s използва много мобилни данни. Натиснете, за да видите подробности.</string>
-  <!-- Title for a work profile. [CHAR LIMIT=25] -->
-  <string name="managed_user_title">Работен профил</string>
-  <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
-  <string name="unknown">Неизвестен</string>
-  <!-- Title for Guest user [CHAR LIMIT=35] -->
-  <string name="user_guest">Гост</string>
-  <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
-  <string name="running_process_item_user_label">Потребител: <xliff:g id="user_name">%1$s </xliff:g></string>
-  <!-- Label for kernel threads in battery usage -->
-  <string name="process_kernel_label">Андроид</string>
-  <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
-  <string name="data_usage_uninstalled_apps">Премахнати приложения</string>
-  <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
-  <string name="data_usage_uninstalled_apps_users">Премахнати приложения и потребители</string>
+    <string name="app_name">Доставчикът на данни</string>
+    <string name="data_usage_disable_short">ДЕАКТИВИРАНЕ</string>
+    <string name="data_usage_disable_long">ЗАБРАНИ МОБИЛНИ ЗАННИ ЗА ТОВА ПРИЛОЖЕНИЕ</string>
+    <string name="data_usage_hide">СКРИЙ</string>
+    <string name="data_usage_disable_message">Забрани достъпа до мобилни данни за %s</string>
+    <string name="data_usage_hide_message">Скрииване на предупреждения за мобилни данни за %s</string>
+    <string name="data_usage_notify_title">Предупреждение за мобилни данни</string>
+    <string name="data_usage_notify_big_text">%s използва много мобилни данни. Натиснете, за да видите подробности.</string>
+    <string name="managed_user_title">Работен профил</string>
+    <string name="unknown">Неизвестен</string>
+    <string name="user_guest">Гост</string>
+    <string name="running_process_item_user_label">Потребител: <xliff:g id="user_name">%1$s </xliff:g></string>
+    <string name="process_kernel_label">Андроид</string>
+    <string name="data_usage_uninstalled_apps">Премахнати приложения</string>
+    <string name="data_usage_uninstalled_apps_users">Премахнати приложения и потребители</string>
 </resources>

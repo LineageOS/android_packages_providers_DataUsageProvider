@@ -15,11 +15,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Title for a work profile. [CHAR LIMIT=25] -->
-  <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
-  <!-- Title for Guest user [CHAR LIMIT=35] -->
-  <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
-  <!-- Label for kernel threads in battery usage -->
-  <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
-  <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
+    <string name="app_name">Verilənlər İstifadəsi Təchizatçısı</string>
+    <string name="data_usage_disable_short">SIRADAN ÇIXART</string>
+    <string name="data_usage_disable_long">TƏTBİQLƏRİN MOBİL VERİLƏNLƏRİNİ SIRADAN ÇIXART</string>
+    <string name="data_usage_hide">GİZLƏT</string>
+    <string name="data_usage_disable_message">%s üçün hüceyrəvi verilənlər şəbəkəsinə müraciət sıradan çıxarılır</string>
+    <string name="data_usage_hide_message">Verilənlər istifadəsi xəbərdarlıqları %s üçün gizlədilir</string>
+    <string name="data_usage_notify_title">Hüceyrəvi verilənlər xəbərdarlığı</string>
+    <string name="data_usage_notify_big_text">%s həddindən çox hüceyrəvi verilənlər istifadə edir. Təfsilatlara baxmaq üçün toxunun.</string>
+    <string name="managed_user_title">İş profili</string>
+    <string name="unknown">Bilinməyən</string>
+    <string name="user_guest">Qonaq</string>
+    <string name="running_process_item_user_label">İstifadəçi: <xliff:g id="user_name">%1$s</xliff:g></string>
+    <string name="process_kernel_label">Android ƏS</string>
+    <string name="data_usage_uninstalled_apps">Silinmiş tətbiqlər</string>
+    <string name="data_usage_uninstalled_apps_users">Silinmiş tətbiq və istifadəçilər</string>
 </resources>

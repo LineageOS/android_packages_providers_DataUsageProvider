@@ -15,26 +15,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Datu erabileraren hornitzailea</string>
-  <string name="data_usage_disable_short">EZGAITU</string>
-  <string name="data_usage_disable_long">EZ GAITU APLIKAZIOAREN DATU MUGIKORRAK</string>
-  <string name="data_usage_hide">EZKUTATU</string>
-  <string name="data_usage_disable_message">%s aplikazioari datu mugikorretara sarbidea ukatzen</string>
-  <string name="data_usage_hide_message">%s aplikazioarentzat datu mugikorren erabilera abisuak ezkutatzen</string>
-  <string name="data_usage_notify_title">Datu mugikorren abisua</string>
-  <string name="data_usage_notify_big_text">%s datu mugikor mordoa erabiltzen ari da. Ukitu xehetasunak ikusteko.</string>
-  <!-- Title for a work profile. [CHAR LIMIT=25] -->
-  <string name="managed_user_title">Lan profila</string>
-  <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
-  <string name="unknown">Ezezaguna</string>
-  <!-- Title for Guest user [CHAR LIMIT=35] -->
-  <string name="user_guest">Gonbidatua</string>
-  <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
-  <string name="running_process_item_user_label">Erabiltzailea: <xliff:g id="user_name">%1$s</xliff:g></string>
-  <!-- Label for kernel threads in battery usage -->
-  <string name="process_kernel_label">Android OS</string>
-  <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
-  <string name="data_usage_uninstalled_apps">Kendutako aplikazioak</string>
-  <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
-  <string name="data_usage_uninstalled_apps_users">Kendutako aplikazio eta erabiltzaileak</string>
+    <string name="app_name">Datu erabileraren hornitzailea</string>
+    <string name="data_usage_disable_short">EZGAITU</string>
+    <string name="data_usage_disable_long">EZ GAITU APLIKAZIOAREN DATU MUGIKORRAK</string>
+    <string name="data_usage_hide">EZKUTATU</string>
+    <string name="data_usage_disable_message">%s aplikazioari datu mugikorretara sarbidea ukatzen</string>
+    <string name="data_usage_hide_message">%s aplikazioarentzat datu mugikorren erabilera abisuak ezkutatzen</string>
+    <string name="data_usage_notify_title">Datu mugikorren abisua</string>
+    <string name="data_usage_notify_big_text">%s datu mugikor mordoa erabiltzen ari da. Ukitu xehetasunak ikusteko.</string>
+    <string name="managed_user_title">Lan profila</string>
+    <string name="unknown">Ezezaguna</string>
+    <string name="user_guest">Gonbidatua</string>
+    <string name="running_process_item_user_label">Erabiltzailea: <xliff:g id="user_name">%1$s</xliff:g></string>
+    <string name="process_kernel_label">Android OS</string>
+    <string name="data_usage_uninstalled_apps">Kendutako aplikazioak</string>
+    <string name="data_usage_uninstalled_apps_users">Kendutako aplikazio eta erabiltzaileak</string>
 </resources>
